@@ -1,0 +1,14 @@
+Best model: RESNET50  |  LR_fine=1e-04  |  Batch=32
+Val weighted F1 : 0.8748
+Test weighted F1: 0.6800
+Test precision  : 0.7384
+Test recall     : 0.7242
+
+                precision    recall  f1-score   support
+
+  hem (normal)       0.78      0.29      0.42       648
+all (leukemia)       0.72      0.96      0.82      1219
+
+      accuracy                           0.72      1867
+     macro avg       0.75      0.62      0.62      1867
+  weighted avg       0.74      0.72      0.68      1867
